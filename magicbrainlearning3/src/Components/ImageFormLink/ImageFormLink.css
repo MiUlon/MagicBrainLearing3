@@ -1,0 +1,15 @@
+.pStyle {
+    font-weight: 600;
+}
+
+.imageFormLinkMaxWidth {
+    max-width: 900px;
+}
+
+.imageFormLinkBorder {
+    border-radius: 10px;
+}
+
+.imageFormLinkBackground {
+    background: linear-gradient(to left, rgb(244, 124, 255) 0%, rgb(136, 182, 250) 100%);
+}
