@@ -1,11 +1,15 @@
 import React from 'react';
 import './Rank.css';
 
-const Rank = () => {
+const Rank = ({ name, entries }) => {
     return (
         <div>
-            <p className='f3 white center rankStyle'>Mindaugas, your current rank is:</p>
-            <p className='f1 white center rankStyle rankRemoveSpaceAbove'>#5 !!!</p>
+            <div className='f3 white rankStyle'>
+                {`${name}, your current entries count:`}
+            </div>
+            <div className='f1 white center rankStyle rankRemoveSpaceAbove'>
+                {entries}
+            </div>
         </div>
     )
 }
