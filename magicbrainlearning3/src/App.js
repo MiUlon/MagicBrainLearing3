@@ -113,7 +113,7 @@ class App extends Component {
               <FaceDetection putBoxOnFace={this.state.box} imageUrl={this.state.imageUrl}/>
             </div>
           : this.state.route === 'signin'
-            ? <SignIn onRouteChange={this.onRouteChange}/>
+            ? <SignIn onRouteChange={this.onRouteChange} loadUser={this.loadUser}/>
             : <Register onRouteChange={this.onRouteChange} loadUser={this.loadUser}/>
         }
       </div>
